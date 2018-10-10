@@ -1,0 +1,91 @@
+.button-toggle-slidebar {
+    display: none;
+    margin: 15px;
+    margin-top: 95px;
+    border-radius: 3px;
+    position: fixed;
+    z-index: 700;
+    padding: 6px 9px;
+    height: 30px;
+    width: 30px;
+    background-color: $brand-success;
+    color: white;
+
+    @media screen and (max-width: $BIG_PHONE){
+        display: block;
+    }
+}
+
+#sidebar {
+    overflow-y: auto;
+}
+
+.left-slide-bar {
+
+    &--desktop {
+        position: absolute;
+        width: 40vw;
+        min-width: 210px;
+        max-width: 250px;
+        transition: all 250ms ease;
+        position: fixed;
+        top: 80px;
+        bottom: 0;
+        left: 0;
+
+        @media screen and (max-width: $BIG_PHONE){
+            left: -250px;
+            z-index: 1000;
+        }
+
+        @media screen and (max-width: $SMALL_PHONE){
+            width: 70vw;
+            max-width: 210px;
+        }
+    }
+
+    .li-left-slidebar {
+        border-bottom: 1px solid $gray-border;
+    }
+
+    .ul-sub-topics {
+        background-color: $gray-border;
+
+        .li-left-slidebar {
+            border-bottom: 1px solid $gray-lighter;
+        }
+    }
+}
+
+.left-slide-bar--shown {
+    .left-slide-bar--desktop {
+        left: 0;
+    }
+
+    .button-toggle-slidebar {
+        display: none;
+    }
+}
+
+.home-right-fading {
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    visibility: hidden;
+
+    @media screen and (max-width: $BIG_PHONE){
+        display: block;
+    }
+}
+
+.menu-title {
+    padding: 12px 20px;
+    font-size: 13px;
+    cursor: default;
+    pointer-events: none;
+    letter-spacing: .035em;
+}

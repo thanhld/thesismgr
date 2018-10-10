@@ -1,0 +1,522 @@
+
+.lecture-profile-container{
+    width: 100%;
+    position: absolute;
+    padding-right: 15px;
+
+    .profile-basic-information {
+        position: relative;
+        border: 1px solid #eee;
+        box-shadow: 0 -4px 25px #DDE;
+        margin-bottom: 15px;
+        padding: 5px 0;
+
+        .avatarProfile {
+            position: absolute;
+            padding: 15px 0;
+            display: inline-block;
+            width: 22%;
+            margin-left: 50px;
+            margin-top: 5px;
+
+            .boxForAvatar img{
+                height: auto;
+                width: 97%;
+            }
+
+            @media(max-width: $BIG_PHONE) {
+                display: block;
+                position: static;
+                width: 50%;
+                margin-left: 25%;
+
+                .boxForAvatar img{
+                    width: 97%;
+                }
+            }
+
+            #newAvatarFiles{
+                visibility: hidden;
+                position: absolute;
+            }
+
+            .formChangeAvatar {
+                padding-top: 5px;
+                text-align: center;
+            }
+        }
+
+        .personal-info-details {
+            margin-left: 35%;
+            display: inline-block;
+            padding: 15px;
+            padding-right: 0;
+
+            @media screen and (max-width: $BIG_PHONE){
+                margin-left: 10px;
+                width: 90%;
+            }
+
+            & > *:not(:first-child){
+                display: inline-block;
+                margin-top: 15px;
+            }
+
+            *:hover{
+                text-decoration: none;
+            }
+
+            .info-1 {
+                font-size: 18px;
+                font-weight: 600;
+                color: #365899;
+            }
+
+            .info-2 {
+                font-size: 16px;
+                color: grey;
+            }
+        }
+    }
+
+    .menuProfileView {
+        clear: both;
+    }
+}
+
+.input-lecture-profile{
+    border-radius: 0px!important;
+    border-color: #eee;
+    padding: 2px;
+    padding-left: 5px;
+    max-width: 250px;
+    width: auto;
+}
+
+select{
+    border-radius: 0px!important;
+    border-color: #eee;
+    padding: 2px;
+    padding-left: 5px;
+    width: auto;
+}
+
+i{
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+hr{
+    margin: 10px;
+}
+
+.resetType{
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    empty-cells : show;
+    font : normal;
+    font-family : sans-serif;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+
+    overflow-wrap: break-word;
+    overflow-x : auto;
+    overflow-y : visible;
+
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+
+    transform : none;
+    transform-style : flat;
+
+    unicode-bidi : normal;
+    visibility : visible;
+    white-space : normal;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+}
+
+.resetType p{
+    font-size: unset;
+}
+.resetType p.small {
+    font-size: unset;
+}
+.resetType a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: unset;
+}
+
+.resetType a,
+.resetType a:hover,
+.resetType a:focus,
+.resetType a:active,
+.resetType a.active {
+    color: unset;
+    outline: unset;
+}
+.resetType h1,
+.resetType h2,
+.resetType h3,
+.resetType h4,
+.resetType h5,
+.resetType h6 {
+    font-family: sans-serif;
+    text-transform: unset;
+    font-weight: unset;
+}
+
+.backgroundHere{
+  background-color: #5882FA!important;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#A9BCF5), to(#A9F5F2));
+  background: -webkit-linear-gradient(top, #A9BCF5, #A9F5F2);
+  background: -moz-linear-gradient(top, #A9BCF5, #A9F5F2);
+  background: -ms-linear-gradient(top, #A9BCF5, #A9F5F2);
+  background: -o-linear-gradient(top, #A9BCF5, #A9F5F2);
+  background-image: -ms-linear-gradient(top, #A9BCF5 0%, #A9F5F2 100%);*/
+}
+
+.modal-custom{
+    /*position: relative;
+    width: auto;
+    max-width: 600px;
+    margin: 10px;
+    font-family: sans-serif;*/
+}
+
+.modal-custom .modal-content{
+    border-radius: 0px;
+}
+
+.modal-custom .headerModal{
+    color: white;
+    text-transform: uppercase;
+}
+
+.modal-custom .moreInfo{
+    margin-top: 35px;
+    padding-top: 15px;
+    border-top: 1px dotted #ddd;
+    color: red;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+}
+
+.modal-custom .modal-body{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+.modal-custom .modal-footer{
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.modal-custom #boxChooseSmall{
+    display: none;
+}
+
+.modal-custom select{
+    margin-top: 10px;
+}
+
+.editProfileButton, .submitEditProfile, .exitEditProfile, .deleteResearchFeild{
+    padding: 1px;
+    margin-left: 10px;
+}
+
+.editProfileButton:hover, .submitEditProfile:hover, .exitEditProfile:hover, .deleteResearchFeild:hover{
+    font-weight: bolder;
+    font-size: 16px;
+    color: blue;
+}
+
+.showInfo{
+    display: unset;
+}
+
+.editInfo{
+    margin-left: 10px;
+    display:none;
+}
+
+.editInfo .formEditProfile {
+
+}
+
+.tab-content{
+    margin-top: 18px;
+}
+
+#contentViewCommonInfo, #contentViewHistory{
+    margin-top: 10px;
+}
+
+#contentViewCommonInfo .panel, #contentViewHistory .panel{
+    border: 1px solid #eee;
+    box-shadow: 0 -4px 25px #DDE;
+    min-height: 200px;
+}
+
+#contentViewCommonInfo .panel-body {
+    width: 100%;
+}
+
+#contentViewCommonInfo .panel-body > span{
+    font-size: 17px;
+}
+
+#contentViewCommonInfo .panel-body > span i{
+    font-size: 15px;
+}
+
+#contentViewCommonInfo .leftForTitleResearchFeild{
+
+}
+
+#contentViewCommonInfo .listResearchFeild, #contentViewCommonInfo .listResearchTopic{
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#contentViewCommonInfo .listResearchFeild p{
+    font-size: 15px;
+}
+
+#contentViewCommonInfo .listResearchFeild p b{
+    margin-left: 10px;
+}
+
+#contentViewCommonInfo .listResearchTopic{
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+#contentViewCommonInfo .buttonEditResearchTopic, #contentViewCommonInfo .buttonAddResearchField{
+    color: white;
+    background-color: #5882FA;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#contentViewCommonInfo .buttonEditResearchTopic:hover, #contentViewCommonInfo .buttonAddResearchField:hover{
+    background-color: orange;
+    border-color: orange;
+}
+
+.btn-sm{
+    padding: 2px 5px!important;
+}
+
+.formTextArea{
+    width:95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    min-height: 200px;
+}
+
+@media(max-width: 1000px){
+  .formTextArea{
+    padding-left: -2px!important;
+    padding-right: -2px!important;
+  }
+}
+
+.formTextArea form{
+    padding: 0px;
+}
+
+.buttonSubmitEditResearchTopic, .buttonExitEditResearchTopic, .formTextArea{
+    display: none;
+}
+
+.buttonExitEditResearchTopic, .buttonSubmitEditResearchTopic{
+    margin-left: 20px;
+}
+
+.form-group {
+    &.formBig {
+        .col-md-2 {
+            width: 50px;
+        }
+    }
+
+    .col-md-4 {
+        button {
+            margin-bottom: 5px;
+        }
+
+        &.col-md-offset-0 {
+            line-height: 40px;
+        }
+    }
+}
+
+i {
+    margin-right: 10px;
+}
+
+
+//--------------------
+// Knowledge Area Modal
+//--------------------
+.knowledge-area-form {
+    border: 1px solid $gray-border;
+    margin: auto;
+    float: none;
+    padding: 15px;
+    height: 60vh;
+    overflow: auto;
+
+    .area-tree__item {
+        padding-top: 5px;
+
+        .input-check-area {
+            width: 15px;
+            height: 15px;
+        }
+
+        .item__title {
+            margin-left: 5px;
+        }
+
+        .item__root-title {
+            display: none;
+        }
+
+        .root-node__title {
+            font-size: 16px;
+            font-weight: bolder;
+        }
+
+        .disable-area {
+            color: $gray-border;
+        }
+    }
+}
+
+//--------------------
+// Officer profile avatar
+//--------------------
+
+.profile-box {
+    .officer-profile {
+        &__avatar {
+
+            &--mobile {
+                padding-bottom: 15px;
+            }
+
+            &--desktop, &--mobile {
+                img {
+                    object-fit: cover;
+                    width: 80%;
+                    max-width: 500px;
+                    height: 250px;
+                    margin: auto;
+                    margin-top: 15px;
+                }
+
+                .officer-avatar {
+                    &__editor-wrapper {
+                        padding: 15px 0;
+                    }
+
+                    &__upload, &__remove {
+                        padding: 0;
+                        text-align: center;
+                        cursor: pointer;
+
+                        label {
+                            font-weight: 400;
+                        }
+
+                        input {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

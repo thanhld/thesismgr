@@ -1,0 +1,56 @@
+.margin-right {
+    margin-right: 10px;
+}
+
+.large-right {
+    margin-right: 25px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.program-filter {
+    label {
+        font-size: 12px;
+    }
+    select {
+        font-size: 12px;
+    }
+}
+
+.loading-bar {
+    z-index: 2000;
+    background-color: $brand-info;
+    height: 3px;
+    position: absolute;
+}
+
+.badge-danger {
+    background-color: $brand-danger;
+}
+
+.badge-margin {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 5px;
+}
+
+.dropdown-caret {
+    margin-right: 1px;
+}
+
+.error-wrapper-scrolling {
+    overflow-y: scroll;
+    max-height: 200px;
+}

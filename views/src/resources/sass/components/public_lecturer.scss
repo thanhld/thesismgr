@@ -1,0 +1,28 @@
+.lecturer-public-info {
+    padding: 20px 40px;
+
+    .avatar-box {
+        &--desktop {
+            position: absolute;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        &--mobile {
+            position: relative;
+            margin: 0;
+        }
+    }
+}
+
+.wrap-text {
+    white-space: pre-wrap;
+}
+
+.technique-info {
+    margin-top: 15px;
+}
+
+.back-to-browse-lecturer__link {
+    padding: 10px;
+}

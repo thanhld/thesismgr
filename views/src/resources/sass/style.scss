@@ -1,0 +1,27 @@
+@import 'variables';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+@import 'layout';
+
+/* All scss components */
+@import 'components/shared';
+@import 'components/set_password_form';
+@import 'components/left_slidebar';
+@import 'components/knowledge_area_manage';
+@import 'components/lecturer_manage';
+@import 'components/lecturer_profile_detail';
+@import 'components/lecturer_research';
+@import 'components/learner_manage';
+@import 'components/register_topic_form';
+@import 'components/topic_render';
+@import 'components/browse_lecturers';
+@import 'components/learner_profile';
+@import 'components/notification';
+@import 'components/public_lecturer';
+@import 'components/announcement';
+@import 'components/topics_manage';
+@import 'components/login';
+
+/* Lib components */
+@import 'components/react-datepicker';
+@import 'components/loading';

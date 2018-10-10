@@ -1,0 +1,782 @@
+
+	  <table  style="border-collapse:collapse; width:100%;"><tr>
+			<td colspan="5" align="center">ĐẠI HỌC QUỐC GIA HÀ NỘI<br /><b>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ</b><br/>-------*-------</td>
+			<td colspan="5" align="center"><b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b><br />Độc lập - Tự do - Hạnh phúc<br>---------*---------</td>
+			</tr><tr>
+			    <td colspan="10" style="text-align:center;"><span style="font-weight:bold; font-size:larger;">BẢNG ĐIỂM</span><br />
+	   Ca thi: K&#7871;t thúc h&#7885;c ph&#7847;n Th&#7921;c hành an ninh m&#7841;ng&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phòng thi số: 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ngày thi:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buổi thi: Sáng</td>
+			</tr>
+	 </table>
+	 
+	   <table   rules="all" border="1" style="border-collapse:collapse; width:100%;"><thead><tr>
+        <th style="text-align:center;">TT</th>
+		<th style="text-align:center;">Mã số</th>
+        <th style="text-align:center;">Họ và tên</th>
+        <th style="text-align:center;">Ngày sinh</th>
+        <th style="text-align:center;">Giới tính</th>
+        <th style="text-align:center;">Mã đề</th>
+        <th style="text-align:center;">Điểm</th>
+        
+           <th style="text-align:center;">Chữ ký</th>
+           <th style="text-align:center;">Ghi chú</th>
+      </tr></thead><tbody>
+      
+      <tr>
+        <td style="text-align:center;">1</td>
+		<td style="text-align:center;">13020521</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Duy </td>
+              <td width="40%">Anh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">25/05/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        4.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">2</td>
+		<td style="text-align:center;">13020019</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Chu Tr&#7847;n </td>
+              <td width="40%">Bách</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">30/09/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        6.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">3</td>
+		<td style="text-align:center;">13020037</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Mai Văn </td>
+              <td width="40%">Chính</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">20/08/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        -
+        </td>
+        
+           <td style="text-align:center;">-</td>
+           <td style="text-align:center; font-size:small;">Vắng</td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">4</td>
+		<td style="text-align:center;">13020088</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Đình </td>
+              <td width="40%">D&#7909;c</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">11/07/1994</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        7.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">5</td>
+		<td style="text-align:center;">13020087</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Tr&#7847;n Xuân </td>
+              <td width="40%">Dũng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">30/06/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2237</td>
+        <td style="text-align:center;">
+        6.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">6</td>
+		<td style="text-align:center;">13020109</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Vũ Văn </td>
+              <td width="40%">Đ&#7863;ng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">28/05/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        6.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">7</td>
+		<td style="text-align:center;">13020103</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Lê Văn </td>
+              <td width="40%">Đ&#7841;t</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">3/24/1993</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        6.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">8</td>
+		<td style="text-align:center;">13020110</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Ph&#7841;m Văn </td>
+              <td width="40%">Đi&#7879;n</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">25/01/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        6.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">9</td>
+		<td style="text-align:center;">13020162</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Lê Công </td>
+              <td width="40%">Hi&#7879;p</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">30/12/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        6.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">10</td>
+		<td style="text-align:center;">13020167</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Văn </td>
+              <td width="40%">Hi&#7879;u</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">16/01/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2237</td>
+        <td style="text-align:center;">
+        6
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">11</td>
+		<td style="text-align:center;">13020177</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Tr&#7847;n Xuân </td>
+              <td width="40%">Hoàng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">27/10/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        6
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">12</td>
+		<td style="text-align:center;">13020589</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Vũ Phi </td>
+              <td width="40%">Hùng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">17/03/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        5.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">13</td>
+		<td style="text-align:center;">13020208</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Chu Thành </td>
+              <td width="40%">Hưng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">14/05/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        6.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">14</td>
+		<td style="text-align:center;">13020210</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Lê Vi&#7879;t </td>
+              <td width="40%">Hưng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">06/03/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        5.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">15</td>
+		<td style="text-align:center;">13020224</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Mai Duy </td>
+              <td width="40%">Khánh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">11/12/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2237</td>
+        <td style="text-align:center;">
+        6
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">16</td>
+		<td style="text-align:center;">13020226</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Hoàng </td>
+              <td width="40%">Khánh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">06/08/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        5.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">17</td>
+		<td style="text-align:center;">13020250</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Vi&#7879;t </td>
+              <td width="40%">Linh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">05/01/1994</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        5.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">18</td>
+		<td style="text-align:center;">13020251</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Ph&#7841;m Tu&#7845;n </td>
+              <td width="40%">Linh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">09/08/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        4.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">19</td>
+		<td style="text-align:center;">13020259</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Tr&#7847;n Đình </td>
+              <td width="40%">Long</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">10/12/1991</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        6.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">20</td>
+		<td style="text-align:center;">13020262</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Vũ Thành </td>
+              <td width="40%">Long</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">08/09/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2237</td>
+        <td style="text-align:center;">
+        6.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">21</td>
+		<td style="text-align:center;">13020284</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Duy </td>
+              <td width="40%">Minh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">20/05/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">22</td>
+		<td style="text-align:center;">13020289</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Đinh Vũ </td>
+              <td width="40%">Nam</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">05/02/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        4.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">23</td>
+		<td style="text-align:center;">13020375</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Văn </td>
+              <td width="40%">T&#7845;n</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">11/02/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        5.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">24</td>
+		<td style="text-align:center;">13020498</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Anh </td>
+              <td width="40%">Tú</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">03/12/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        5.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">25</td>
+		<td style="text-align:center;">13020478</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Ph&#7841;m Văn </td>
+              <td width="40%">Tu&#7845;n</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">12/6/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2237</td>
+        <td style="text-align:center;">
+        5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">26</td>
+		<td style="text-align:center;">13020480</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Vũ Anh </td>
+              <td width="40%">Tu&#7845;n</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">03/06/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        6.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">27</td>
+		<td style="text-align:center;">13020490</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Hoàng Văn </td>
+              <td width="40%">Tùng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">7/8/1988</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        4.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">28</td>
+		<td style="text-align:center;">13020400</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Cù Xuân </td>
+              <td width="40%">Th&#7855;ng</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">23/08/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        5.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">29</td>
+		<td style="text-align:center;">13020378</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Lê Th&#7871; </td>
+              <td width="40%">Thao</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">11/07/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        5.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">30</td>
+		<td style="text-align:center;">13020408</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Ph&#7841;m Văn </td>
+              <td width="40%">Th&#7871;</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">6/7/1994</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2237</td>
+        <td style="text-align:center;">
+        4
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">31</td>
+		<td style="text-align:center;">13020414</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Bùi Văn </td>
+              <td width="40%">Th&#7883;nh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">6/25/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2240</td>
+        <td style="text-align:center;">
+        6.75
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">32</td>
+		<td style="text-align:center;">13020454</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Nguy&#7877;n Văn </td>
+              <td width="40%">Tr&#7883;nh</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">20/07/1994</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2238</td>
+        <td style="text-align:center;">
+        4
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">33</td>
+		<td style="text-align:center;">13020460</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Đ&#7863;ng Quang </td>
+              <td width="40%">Trung</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">30/06/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2239</td>
+        <td style="text-align:center;">
+        6.5
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      
+      <tr>
+        <td style="text-align:center;">34</td>
+		<td style="text-align:center;">13020654</td>
+        <td>
+          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="60%">&nbsp;&nbsp;Phan Kh&#7855;c </td>
+              <td width="40%">Vũ</td>
+            </tr>
+          </table>
+        </td>
+        <td style="text-align:center;">26/08/1995</td>
+        <td style="text-align:center;">Nam</td>
+        <td style="text-align:center;">2241</td>
+        <td style="text-align:center;">
+        5.25
+        </td>
+        
+           <td style="text-align:center;"></td>
+           <td style="text-align:center; font-size:small;"></td>
+      </tr>
+      </tbody></table>
+	  <table style="border-collapse:collapse; width:100%;"><tr>
+	    <td colspan="10">Số thí sinh theo danh sách: <b>34</b> &nbsp;&nbsp;&nbsp; Số bài thi: <b>33</b> &nbsp;&nbsp;&nbsp;  Số thí sinh không có bài thi: <b>1</b></td>
+	  </tr><tr>
+	    <td colspan="10" style="text-align:right; font-style:italic;">................, ngày ...... tháng ...... năm .........</td>
+	  </tr><tr>
+			<td colspan="3" style="text-align:center; vertical-align:top;">CBCT 1<br/><font size="-1"><i>(Ký, ghi rõ họ tên)</i></font></td>
+			<td colspan="3" style="text-align:center; vertical-align:top;">CBCT 2<br/><font size="-1"><i>(Ký, ghi rõ họ tên)</i></font></td>
+			<td colspan="4" style="text-align:center; vertical-align:top;">PHÊ DUYỆT<br/><font size="-1"><i>(Ký, ghi rõ họ tên)</i></font></td>
+		  </tr>
+	  </table> 
+	  </body></html>

@@ -1,0 +1,34 @@
+.announcement {
+    padding: 1%;
+
+    .ann-title {
+        font-size: 18px;
+        font-weight: 700;
+
+        @media screen and (max-width: $SMALL_PHONE) {
+            font-size: 15px;
+        }
+    }
+
+    .ann-user {
+        font-size: 12px;
+        color: $gray;
+        padding: 5px 0;
+    }
+
+    .ann-content {
+        font-size: 14px;
+        padding: 5px 0;
+        padding-right: 10%;
+
+        @media screen and (max-width: $BIG_PHONE) {
+            padding-right: 0;
+        }
+    }
+
+    .ann-tags {
+        font-size: 12px;
+        color: $gray;
+        padding-bottom: 5px;
+    }
+}

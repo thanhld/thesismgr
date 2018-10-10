@@ -1,0 +1,58 @@
+.toast-notification {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 28px;
+    width: 50%;
+    min-height: 50px;
+    margin: 0 auto;
+    border: 1px $gray-base solid;
+    background-color: $white;
+    padding: 0px 60px;
+    vertical-align: middle;
+    line-height: 44px;
+    > .toast-icon {
+        position: relative;
+        right: 30px;
+    }
+}
+
+.toast-notification-success {
+    @extend .toast-notification;
+    border-color: darken($brand-success, 20%);
+    background-color: $brand-success;
+    color: $white;
+}
+
+.toast-notification-primary {
+    @extend .toast-notification;
+    border-color: darken($brand-primary, 20%);
+    background-color: $brand-primary;
+    color: $white;
+}
+
+.toast-notification-danger {
+    @extend .toast-notification;
+    border-color: darken($brand-danger, 20%);
+    background-color: $brand-danger;
+    color: $white;
+}
+
+$animationDuration: 300ms;
+
+.toast-fadein {
+    animation: fadein $animationDuration;
+}
+
+.toast-fadeout {
+    animation: fadeout $animationDuration;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}

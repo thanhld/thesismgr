@@ -1,0 +1,64 @@
+.browse-title {
+    // font-size: 14px;
+    // font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.browse-content {
+    min-height: 200px;
+}
+
+.box-list {
+    border: 1px solid $gray-border;
+    padding: 20px 0;
+    padding-left: 20px;
+    overflow: auto;
+    height: 68vh;
+    margin-bottom: 10px;
+
+    a {
+        display: block;
+
+        &.selected {
+            font-weight: bold;
+        }
+
+        &.department-item {
+            padding-bottom: 15px;
+        }
+    }
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.knowledge-area-box {
+    margin-bottom: 10px;
+
+    .knowledge-area__main-content {
+        overflow: auto;
+        height: 68vh;
+
+        @media screen and (max-width: 768px) {
+            margin-top: 10px;
+            height: 50vh;
+        }
+
+        .tree-root > .item__manage p.root-node-title {
+            margin-bottom: 15px !important;
+            font-size: 16px;
+        }
+    }
+}
+
+.browse-guide {
+    font-size: 12px;
+    color: $gray;
+
+    .browse-guide-highlight {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}

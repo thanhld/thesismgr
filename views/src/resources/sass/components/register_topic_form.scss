@@ -1,0 +1,48 @@
+.cannot-register-message {
+    color: $gray-base;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.register-form-content {
+    border: 1px solid $gray-border;
+    padding: 35px 25px;
+
+    .col-xs-7 {
+        @media screen and (max-width: $BIG_PHONE){
+            text-align: right;
+        }
+    }
+
+    .control-label {
+        padding-top: 0;
+    }
+
+    .checkbox-do-with-english {
+        border: 0;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: relative;
+        left: 15px;
+
+        @media screen and (max-width: $BIG_PHONE){
+            top: 8px;
+        }
+    }
+
+    .select-lecture-box {
+        margin-top: 5px;
+
+        .lecture-cant-registered {
+            background-color: $gray-lighter;
+        }
+    }
+
+    label.error {
+        color: $brand-danger;
+        font-weight: normal;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+}

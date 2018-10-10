@@ -1,0 +1,185 @@
+//--------------------
+// Body
+//--------------------
+body {
+    height: 100%;
+}
+//--------------------
+// Login page container
+//--------------------
+.login-page-container {
+    margin-top: 100px;
+}
+//--------------------
+// Navbar
+//--------------------
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+
+    .navbar-header-title {
+        float: left;
+        padding: 25px 10px;
+        padding-right: 0;
+
+        &__brand {
+            font-size: 20px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: $PHONE){
+            &__brand {
+                font-size: 18px;
+            }
+
+            padding: 15px 0;
+            width: 64%;
+        }
+
+        @media screen and (max-width: $SMALL_PHONE){
+            &__brand {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .navbar-header-user-menu {
+        padding-top: 22px;
+
+        .label-username {
+            display: inline-block;
+            border: 1px solid $brand-primary;
+            border-radius: 2px;
+            padding: 4px 10px;
+
+            i {
+                margin-right: 5px;
+            }
+        }
+
+        .nav-user-item {
+            color: $brand-primary;
+        }
+
+        .dropdown-user-button {
+            float: right;
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            color: $white;
+            background-color: $gray-light;
+
+            i {
+                margin-right: 0;
+            }
+        }
+
+        @media screen and (max-width: $BIG_PHONE){
+            .desktop-button {
+                display: none;
+            }
+
+            .mobile-button {
+                display: inline-block;
+            }
+        }
+    }
+}
+//--------------------
+// Sidebar
+//--------------------
+#sidebar {
+    background-color: $gray-lighter;
+    border-right: 1px solid $gray-border;
+    .sidebar-nav {
+        width: 100%;
+        .nav li {
+            a {
+                color: $gray-dark;
+            }
+            a:hover, a.active {
+                color: $white;
+                background-color: $brand-primary;
+            }
+            span {
+                padding-left: 20px;
+            }
+        }
+    }
+}
+//--------------------
+// Content
+//--------------------
+.content {
+    margin-left: 235px;
+    margin-top: 80px;
+    padding: 15px 15px;
+    padding-right: 0;
+    position: relative;
+
+    @media screen and (max-width: $BIG_PHONE){
+        margin-left: 0;
+    }
+}
+.btn-margin {
+    margin-right: 2px;
+}
+
+//--------------------
+// Forgot password form
+//--------------------
+.forget-password-link {
+    cursor: pointer;
+}
+.send-mail-success, .text-message-success {
+    color: $brand-success;
+}
+.send-mail-error, .text-message-error {
+    color: $brand-danger;
+}
+.send-mail-warning, .text-message-warning {
+    margin-bottom: 15px;
+}
+
+.send-mail-success, .send-mail-error,
+.send-mail-warning, .text-message-error, .text-message-success,
+.text-message-warning {
+    text-align: center;
+}
+
+//--------------------
+// Maximum Topic table
+//--------------------
+.table-maximum-topic {
+    text-align: center;
+
+    th {
+        text-align: center;
+    }
+}
+
+//--------------------
+// Registration session admin management
+//--------------------
+.select-registration-session-type {
+    margin-left: 15px;
+}
+
+//--------------------
+// Background transition for each row in admin table managements
+//--------------------
+.row-item {
+    background-color:transparent;
+    -moz-transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+    -o-transition:background-color 1s;
+    transition:background-color 1s;
+}
+
+.lastest-row-item {
+    background-color: #bfbfbf;
+}

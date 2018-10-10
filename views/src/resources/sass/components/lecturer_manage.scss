@@ -1,0 +1,9 @@
+.page-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: $SMALL_PHONE) {
+        font-size: 16px;
+    }
+}

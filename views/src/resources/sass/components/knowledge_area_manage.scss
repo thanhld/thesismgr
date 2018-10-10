@@ -1,0 +1,175 @@
+.knowledge-area-wrapper {
+    .knowledge-area {
+        &__main-content {
+            border: 1px solid $gray-border;
+            padding: 20px 0;
+            overflow: auto;
+
+            @media screen and (max-width: $BIG_PHONE) {
+                margin-top: 40px;
+            }
+
+            .area-tree__item {
+                font-size: 14px;
+                display: none;
+
+                .item__title {
+                    display: inline-block;
+                    border-radius: 5px;
+                    padding: 5px;
+                    cursor: pointer;
+
+                    &:active {
+                        font-weight: 700;
+                    }
+
+                    &-edit {
+                        display: none;
+                        padding: 5px;
+                        border-radius: 5px;
+                        border: 1px solid $gray-border;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .item__manage {
+                    line-height: 0.5;
+                    & > span i {
+                        margin-right: 10px;
+                        font-size: 12px;
+                    }
+                }
+
+                .fa-empty {
+                    width: 20px;
+                    display: inline-block;
+                }
+
+                & > .item__manage {
+                    & > span {
+                        .fa-plus, .fa-minus {
+                            display: none;
+                        }
+                    }
+                }
+
+                .btns-group-1, .btns-group-2 {
+                    display: none;
+                }
+
+                .item__btns {
+                    padding: 0 10px;
+                    font-size: 18px;
+                    cursor: pointer;
+                    margin: 0 0 10px 5px;
+
+                    i {
+                        margin: 0 7px;
+                    }
+
+                    .btn-create {
+                        color: $brand-success;
+                    }
+
+                    .btn-edit {
+                        color: $brand-info;
+                    }
+
+                    .btn-delete {
+                        color: $brand-danger;
+                    }
+
+                    .btn-submit {
+                        color: $brand-success;
+                    }
+
+                    .btn-cancel {
+                        color: $brand-warning;
+                    }
+                }
+            }
+
+            .tree-root {
+                display: block;
+                margin-left: 10px;
+
+                & > .item__manage {
+                    p.root-node-title {
+                        margin-bottom: 15px !important;
+                        margin-right: 10px;
+                        font-size: 16px;
+                    }
+                }
+
+                & > .area-tree__item {
+                    display: block;
+                }
+            }
+
+            .parent-node {
+                & > .item__manage {
+                    & > span {
+                        .fa-plus {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//--------------------
+// Create new node Modal
+//--------------------
+.create-node-modal-body {
+    padding: 20px;
+    text-align: center;
+
+    input {
+        border: 1px solid $gray-lighter;
+        padding: 5px;
+        margin-left: 10px;
+        width: 50%;
+    }
+
+    #warning-text {
+        color: $brand-danger;
+        padding-top: 15px;
+    }
+}
+
+//--------------------
+// Common style for tree nodes
+//--------------------
+.tree-node-offset-1 {
+    margin-left: 35px;
+}
+
+.mark-current-node {
+    & > .item__title {
+        //background-color: $brand-primary;
+        // border: 1px solid $brand-info;
+        // color: $white;
+        color: #000;
+        font-weight: bolder;
+    }
+
+    & > .btns-group-1 {
+        display: inline-block !important;
+    }
+}
+
+.edit-current-node {
+    & > .item__title {
+        display: none !important;
+    }
+
+    & > .btns-group-1 {
+        display: none !important;
+    }
+
+    & > .item__title-edit, & > .btns-group-2 {
+        display: inline-block !important;
+    }
+}

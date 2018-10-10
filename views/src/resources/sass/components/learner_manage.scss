@@ -1,0 +1,16 @@
+.create-learner-form {
+    label.error {
+        color: $brand-danger;
+        font-weight: normal;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+}
+
+.process-load-spinner {
+    text-align: center;
+    
+    img {
+        width: 100px;
+    }
+}

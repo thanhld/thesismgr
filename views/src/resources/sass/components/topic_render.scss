@@ -1,0 +1,43 @@
+.render-topic {
+    border: 1px solid $gray;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.topic-info-1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: $gray-dark;
+    // font-weight: 600;
+    // color: $brand-primary;
+}
+
+.topic-info-2 {
+    margin-bottom: 10px;
+    color: $gray-dark;
+}
+
+.topic-sub-title {
+    font-style: italic;
+    color: $gray-dark;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.topic-sub-title-2 {
+    font-style: italic;
+    color: $gray-dark;
+    margin-bottom: 20px;
+}
+
+.topic-description {
+
+}
+
+.topic-btn-group {
+    margin-right: 20px;
+}
+
+.review-content {
+    margin-left: 120px;
+}
